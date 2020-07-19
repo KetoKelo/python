@@ -58,7 +58,7 @@ class MoonEditions(tk.Tk):
     def on_key_press(self, event):
         self.count += 1
 
-        if self.count == 1:
+        if self.count == 5:
             Write(self).compose()
             self.count = 0
         
